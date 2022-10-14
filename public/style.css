@@ -1,0 +1,175 @@
+
+@media only screen and (min-width: 900px){
+
+html { 
+    background: url("https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=1380&t=st=1665432440~exp=1665433040~hmac=74c2d49a649e661adb4fb0137c30881982c389508cf2cd70b067104330ed54e7") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.container {
+    margin: auto;
+    width: 40%;
+    padding: 40px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.head {
+    flex: 1;
+    margin: 10px;
+}
+
+p.head {
+    text-align: right;
+}
+
+.entry {
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 10px;
+    padding: 5px, 5px, 5px, 5px;
+    margin-top: 10px;
+}
+
+.entry:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.entry-img {
+    float: left;
+    width: 3rem;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.inner-img {
+    float: right;
+    width: 3rem;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.inner-img:hover {
+    cursor: pointer;
+}
+
+.entry-info {
+    padding: 20px;
+}
+
+.inner-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+.time-text {
+    color: hsl(219, 14%, 63%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+}
+
+a:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+}
+
+p b:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    font-size: 10px;
+}
+ 
+}
+
+
+
+.entry {
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 10px;
+    padding: 10px, 10px, 10px, 10px;
+    margin-top: 10px;
+}
+
+.entry:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.entry-img {
+    float: left;
+    width: 3rem;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.inner-img {
+    float: right;
+    width: 3rem;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.inner-img:hover {
+    cursor: pointer;
+}
+
+.entry-info {
+    padding: 20px;
+}
+
+.inner-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+.time-text {
+    color: hsl(219, 14%, 63%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+}
+
+a:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+}
+
+p b:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    font-size: 10px;
+}
